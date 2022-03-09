@@ -1,0 +1,20 @@
+.apply2 .tab-bar{
+    display:flex;
+}
+.apply2 .tab-bar > li{
+    border:1px solid black;
+    width:50%;
+    padding:10px 5px;
+}
+.apply2 .tab-bar > li.select{
+    background-color: aquamarine;
+}
+.apply2 .tab-content{
+    padding:10px;
+}
+.apply2 .tab-content > li{
+    display: none;
+}
+.apply2 .tab-content > li.reveal{
+    display:block;
+}

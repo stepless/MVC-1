@@ -1,0 +1,27 @@
+.apply4 .circle{
+    width:15vw;
+    height: 15vw;
+    border:1px solid red;
+    border-radius:50%;
+}
+.apply4 .circle.select{
+    -webkit-animation:1s linear infinite alternate forwards changColor;
+        animation:1s linear infinite alternate forwards changColor;
+}
+@-webkit-keyframes changColor{
+    0%{
+        background-color: red;
+    }
+    100%{
+        background-color: blue;
+    }
+}
+
+@keyframes changColor{
+    0%{
+        background-color: red;
+    }
+    100%{
+        background-color: blue;
+    }
+}

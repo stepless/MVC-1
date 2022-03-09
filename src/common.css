@@ -1,0 +1,12 @@
+#page{
+    display:flex;
+    flex-wrap:wrap;
+}
+#page > section{
+    width:50vw;
+    height: 50vh;
+    border:1px solid black;
+}
+body::-webkit-scrollbar{
+    display:none;
+}

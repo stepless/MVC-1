@@ -1,0 +1,10 @@
+section.apply1{
+    padding:20px;
+}
+section.apply1 .number{
+    margin-bottom:10px;
+}
+section.apply1 button{
+    padding:8px 20px;
+    font-size: 18px;
+}

@@ -1,0 +1,13 @@
+.apply3{
+    padding-top:6vw;
+    padding-left: 3vw;
+}
+.apply3 .square{
+    border:1px solid black;
+    width:10vw;
+    height: 10vw;
+    transition:transform 1s;
+}
+.apply3 .square.select{
+    transform:translate(20vw);
+}
